@@ -1,0 +1,196 @@
+/*style Global*/
+
+body{
+    font-family: 'raleway', 'Times New Roman', 'Times', sans-serif;
+    text-align: justify;
+    margin:0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+/*style des images*/
+.image_accueil{
+    width:400px;
+    height:220px;
+}
+.image_fleur{
+    width: 70%;
+    height:400px;
+}
+
+/*style des titres*/
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*style Header*/
+.banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.div_titre_principal{
+    width:100%;
+    text-align: center;
+}
+
+.logo{
+    margin-top: 1.5rem;
+    width: 40%;
+    margin-right: 3.5rem;
+}
+
+.titre_principal{
+    font-size: 34px;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+.menu_navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem;
+    margin-top: 1rem;
+}
+
+.lien_menu{
+    color: black;
+    padding-right: 1rem;
+    text-decoration: none;
+}
+
+.lien_menu:hover{
+    text-decoration: underline;
+    font-weight: 700;
+    color: green;
+}
+
+/* style main*/
+.premier_paragraphe{
+    background-color:rgb(241, 216, 219);
+    padding: 1rem;
+    line-height: 25px;
+    margin: 0;
+}
+.second_paragraphe{
+    background-color: rgb(241, 216, 219);
+    padding: 1rem;
+    line-height: 25px;
+    margin: 0;
+}
+
+.titre_introduction{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.article_information{
+    display: flex;
+    gap:80px;
+    justify-content: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+
+}
+.article_pages{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 200px 200px;
+    gap: 80px;
+    margin-bottom: 5rem;
+
+}
+
+.article_pages a{
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+}
+
+.article_pages a:hover{
+    text-decoration: underline;
+    color: green;
+    font-weight: 700;
+  }
+
+
+
+.aside_information{
+    width:30%;
+    border: 2px solid black;
+    margin-top: 1.5rem;
+    background-color: rgb(213, 209, 217);
+    border-radius: 5px;
+}
+
+.information{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    line-height: 25px;
+}
+
+.titre_encart{
+    text-decoration: underline;
+}
+
+.p_date{
+    font-weight: 700;
+}
+
+.information a{
+    color: black;
+    font-weight: 700;
+}
+
+
+/* style footer*/
+
+footer{
+    background-color:rgb(185, 213, 238);
+    display: flex;
+    height: 300px;
+}
+
+
+.logo_footer{
+    width:40%;
+    margin-top: 1.5rem;
+}
+
+.contact{
+    margin-top: 2.5rem;
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.contact h2{
+    width:89%;
+}
+
+.contact p{
+    width:89%;
+}
+
+.contact span{
+    font-weight: 700;
+    width: 89%;
+}
+
+.contact img{
+    margin-top: 1rem;
+    margin-right:1rem;
+    background-color:rgb(97, 97, 246);
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.lien_reseaux{
+    display: flex;
+    width:89%;
+    justify-content: center;
+}
