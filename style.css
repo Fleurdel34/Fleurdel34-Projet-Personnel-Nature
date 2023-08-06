@@ -5,7 +5,7 @@ body{
     text-align: justify;
     margin:0;
     padding: 0;
-    background-color: aliceblue;
+    
 }
 
 /*style des images*/
@@ -14,8 +14,9 @@ body{
     height:220px;
 }
 .image_fleur{
-    width: 70%;
+    width: 100%;
     height:400px;
+    object-fit: cover;
 }
 
 /*style des titres*/
@@ -30,6 +31,7 @@ body{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-color: rgb(144, 216, 158);
 }
 
 .div_titre_principal{
@@ -60,6 +62,7 @@ body{
     color: black;
     padding-right: 1rem;
     text-decoration: none;
+    font-weight: 700;
 }
 
 .lien_menu:hover{
@@ -70,13 +73,11 @@ body{
 
 /* style main*/
 .premier_paragraphe{
-    background-color:rgb(241, 216, 219);
     padding: 1rem;
     line-height: 25px;
     margin: 0;
 }
 .second_paragraphe{
-    background-color: rgb(241, 216, 219);
     padding: 1rem;
     line-height: 25px;
     margin: 0;
@@ -122,7 +123,7 @@ body{
     width:30%;
     border: 2px solid black;
     margin-top: 1.5rem;
-    background-color: rgb(213, 209, 217);
+    background-color: rgb(144, 216, 158);
     border-radius: 5px;
 }
 
@@ -149,27 +150,31 @@ body{
 /* style footer*/
 
 footer{
-    background-color:rgb(185, 213, 238);
+    background-color: rgb(102, 205, 138);
     display: flex;
     height: 300px;
 }
 
-
-.logo_footer{
-    width:40%;
+.image_logo{
+    width:33%;
     margin-top: 1.5rem;
 }
 
+.logo_footer{
+    width:40%;
+    
+}
+
 .contact{
-    margin-top: 2.5rem;
-    width:60%;
+    width:33%;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: left;
 }
 
 .contact h2{
     width:89%;
+    margin-bottom: 0;
 }
 
 .contact p{
@@ -184,7 +189,7 @@ footer{
 .contact img{
     margin-top: 1rem;
     margin-right:1rem;
-    background-color:rgb(97, 97, 246);
+    background-color:rgb(57, 128, 92);
     padding: 0.5rem;
     border-radius: 5px;
 }
@@ -192,5 +197,19 @@ footer{
 .lien_reseaux{
     display: flex;
     width:89%;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-top: 10px;
+}
+.image_footer{
+    width:33%;
+    height: 300px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3rem;
+}
+
+.image_footer img{
+    width:40%;
+    height: 169px;
+    margin-top:1.5rem;
 }
