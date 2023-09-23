@@ -14,6 +14,7 @@ body{
     width:400px;
     height:220px;
 }
+
 .image_fleur{
     width: 100%;
     height:400px;
@@ -84,6 +85,7 @@ body{
     line-height: 25px;
     margin: 0;
 }
+
 .second_paragraphe{
     padding: 1rem;
     line-height: 25px;
@@ -102,6 +104,7 @@ body{
     margin-bottom: 3rem;
     margin-top: 3rem;
 }
+
 .article_pages{
     display: grid;
     grid-template-columns: 400px 400px;
@@ -121,9 +124,7 @@ body{
     text-decoration: underline;
     color: green;
     font-weight: 700;
-  }
-
-
+}
 
 .aside_information{
     width:30%;
@@ -152,7 +153,16 @@ body{
     font-weight: 700;
 }
 
+.section__paragraph{
+    margin: 1rem;
+}
 
+.section__span{
+    font-weight: 700;
+    display: block;
+    flex-wrap: wrap;
+    padding-top: 0.5rem;
+}
 /* style footer*/
 
 footer{
