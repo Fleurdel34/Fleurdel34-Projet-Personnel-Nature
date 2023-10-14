@@ -11,5 +11,6 @@ fonctionnalité à rajouter: permettre à l'utilisateur de poster une image avec
 
 Offrir la possibilité aux autres utilisateurs de liker ou disliker la photo mise mais en aucun cas de pouvoir la supprimer.
 
-Gestion du base de donnée Mongo DB. Utilise Node.js en backend.
+Gestion d une base de donnée Mongo DB. Utilise Node.js en backend.
 
+serveur node.js installé

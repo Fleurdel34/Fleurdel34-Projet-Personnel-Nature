@@ -1,0 +1,11 @@
+{
+  "name": "projet-personnel-nature",
+  "version": "1.0.0",
+  "description": "Rajouter une bordure entre le 2nd paragraphe de la page d'accueil et la section des cards.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
