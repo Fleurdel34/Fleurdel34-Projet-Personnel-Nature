@@ -13,4 +13,3 @@ Offrir la possibilité aux autres utilisateurs de liker ou disliker la photo mis
 
 Gestion d une base de donnée Mongo DB. Utilise Node.js en backend.
 
-serveur node.js installé
