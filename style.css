@@ -13,6 +13,10 @@ body{
 .image_accueil{
     width:400px;
     height:220px;
+    transition: transform 400ms;
+    &:hover{
+        transform: scale(1.37);
+    }
 }
 
 .image_fleur{
