@@ -13,9 +13,9 @@ body{
 .image_accueil{
     width:400px;
     height:220px;
-    transition: transform 400ms;
+    transition: transform 400ms ease-in-out;
     &:hover{
-        transform: scale(1.37);
+        transform: scale(1.37) rotate(-1turn);
     }
 }
 
