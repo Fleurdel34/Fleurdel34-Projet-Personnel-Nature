@@ -84,6 +84,11 @@ body{
 }
 
 /* style main*/
+.main_parapgraphe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .premier_paragraphe{
     padding: 1rem;
     line-height: 25px;
@@ -95,7 +100,7 @@ body{
     width:15%;
     height: 5px;
     background-color:  rgb(144, 216, 158);
-    
+    border-radius: 5px;
 }
 .second_paragraphe{
     padding: 1rem;
